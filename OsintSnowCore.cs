@@ -6,7 +6,7 @@ namespace OsintSnowSharp
     public class OsintSnowCore
     {
         private HttpClient _httpClient;
-        private string _baseUri;
+        private string _osintBaseUri, _apiBaseUri;
 
         private ModuleInf0Sec _moduleInf0Sec;
         private ModuleOsintSnow _moduleOsintSnow;
@@ -25,10 +25,13 @@ namespace OsintSnowSharp
         private ModuleGenesisOSINT _moduleGenesisOsint;
         private ModuleDropbase _moduleDropbase;
         private ModuleSnusbase _moduleSnusbase;
+        private ModuleCrowsint _moduleCrowsint;
+        private ModuleOathNet _moduleOathNet;
 
         public OsintSnowCore(string osintSnowApiKey)
         {
-            _baseUri = "https://osintsnow.tools/api/osint";
+            _osintBaseUri = "https://osintsnow.tools/api/osint";
+            _apiBaseUri = "https://osintsnow.tools/api";
             _httpClient = OsintSnowUtils.CreateHttpClient(osintSnowApiKey);
 
             _moduleInf0Sec = new ModuleInf0Sec(this);
@@ -48,6 +51,8 @@ namespace OsintSnowSharp
             _moduleGenesisOsint = new ModuleGenesisOSINT(this);
             _moduleDropbase = new ModuleDropbase(this);
             _moduleSnusbase = new ModuleSnusbase(this);
+            _moduleCrowsint = new ModuleCrowsint(this);
+            _moduleOathNet = new ModuleOathNet(this);
         }
 
         public ModuleInf0Sec GetInf0Sec()
@@ -135,10 +140,20 @@ namespace OsintSnowSharp
             return _moduleSnusbase;
         }
 
-        public string PostRequest(string url, string json)
+        public ModuleCrowsint GetCrowsint()
+        {
+            return _moduleCrowsint;
+        }
+
+        public ModuleOathNet GetOathNet()
+        {
+            return _moduleOathNet;
+        }
+
+        public string PostRequest(string url, string json, bool osintApi = true)
         {
             StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-            HttpResponseMessage response = _httpClient.PostAsync($"{_baseUri}{url}", content).GetAwaiter().GetResult();
+            HttpResponseMessage response = _httpClient.PostAsync($"{(osintApi ? _osintBaseUri : _apiBaseUri)}{url}", content).GetAwaiter().GetResult();
 
             string body = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
             response.Dispose();
@@ -146,9 +161,9 @@ namespace OsintSnowSharp
             return body;
         }
 
-        public string GetRequest(string url)
+        public string GetRequest(string url, bool osintApi = true)
         {
-            HttpResponseMessage response = _httpClient.GetAsync($"{_baseUri}{url}").GetAwaiter().GetResult();
+            HttpResponseMessage response = _httpClient.GetAsync($"{(osintApi ? _osintBaseUri : _apiBaseUri)}{url}").GetAwaiter().GetResult();
 
             string body = response.Content.ReadAsStringAsync().GetAwaiter().GetResult();
             response.Dispose();

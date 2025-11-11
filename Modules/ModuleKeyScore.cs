@@ -33,7 +33,7 @@ namespace OsintSnowSharp.Modules
                     break;
             }
 
-            return _osintSnowCore.PostRequest("/keyscore/search", "{\"terms\":\"" + query + "\",\"types\":[\"email\",\"username\",\"password\",\"ip\",\"stealer_logs\",\"login\",\"phone\",\"name\",\"email_domain\",\"hash\",\"dob\",\"state\",\"zip\",\"lastip\",\"discord\",\"discord_id\"],\"source\":\"" + type + "\"}");
+            return _osintSnowCore.PostRequest("/keyscore/search", "{\"terms\":\"" + query + "\",\"types\":[\"email\",\"username\",\"password\",\"ip\",\"stealer_logs\",\"login\",\"phone\",\"name\",\"email_domain\",\"hash\",\"dob\",\"state\",\"zip\",\"lastip\"],\"source\":\"" + type + "\"}");
         }
 
         public string IpLookup(string query)
