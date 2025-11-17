@@ -27,6 +27,7 @@ namespace OsintSnowSharp
         private ModuleSnusbase _moduleSnusbase;
         private ModuleCrowsint _moduleCrowsint;
         private ModuleOathNet _moduleOathNet;
+        private ModuleIntelX _moduleIntelX;
 
         public OsintSnowCore(string osintSnowApiKey)
         {
@@ -53,6 +54,7 @@ namespace OsintSnowSharp
             _moduleSnusbase = new ModuleSnusbase(this);
             _moduleCrowsint = new ModuleCrowsint(this);
             _moduleOathNet = new ModuleOathNet(this);
+            _moduleIntelX = new ModuleIntelX(this);
         }
 
         public ModuleInf0Sec GetInf0Sec()
@@ -148,6 +150,11 @@ namespace OsintSnowSharp
         public ModuleOathNet GetOathNet()
         {
             return _moduleOathNet;
+        }
+
+        public ModuleIntelX GetIntelX()
+        {
+            return _moduleIntelX;
         }
 
         public string PostRequest(string url, string json, bool osintApi = true)
