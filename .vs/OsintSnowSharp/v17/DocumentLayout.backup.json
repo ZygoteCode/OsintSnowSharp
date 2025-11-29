@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\modules\\moduleintelx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:modules\\moduleintelx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\osintsnowutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:osintsnowutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\osintsnowcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:osintsnowcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\modules\\moduleoathnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:modules\\moduleoathnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ModuleIntelX.cs",
-              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleIntelX.cs",
-              "RelativeDocumentMoniker": "Modules\\ModuleIntelX.cs",
-              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleIntelX.cs",
-              "RelativeToolTip": "Modules\\ModuleIntelX.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Title": "OsintSnowUtils.cs",
+              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\OsintSnowUtils.cs",
+              "RelativeDocumentMoniker": "OsintSnowUtils.cs",
+              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\OsintSnowUtils.cs",
+              "RelativeToolTip": "OsintSnowUtils.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T19:59:12.126Z",
+              "WhenOpened": "2025-11-29T07:21:30.374Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +41,10 @@
               "RelativeDocumentMoniker": "OsintSnowCore.cs",
               "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\OsintSnowCore.cs",
               "RelativeToolTip": "OsintSnowCore.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAAJ8AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAowLsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T18:15:10.665Z",
+              "WhenOpened": "2025-11-29T07:16:32.838Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModuleOathNet.cs",
-              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleOathNet.cs",
-              "RelativeDocumentMoniker": "Modules\\ModuleOathNet.cs",
-              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleOathNet.cs",
-              "RelativeToolTip": "Modules\\ModuleOathNet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T18:05:38.02Z"
             }
           ]
         }
