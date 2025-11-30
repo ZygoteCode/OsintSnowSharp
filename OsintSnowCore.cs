@@ -29,6 +29,7 @@ namespace OsintSnowSharp
         private ModuleOathNet _moduleOathNet;
         private ModuleIntelX _moduleIntelX;
         private ModuleXBOX _moduleXBOX;
+        private ModuleKraken _moduleKraken;
 
         public OsintSnowCore(string osintSnowApiKey)
         {
@@ -57,6 +58,7 @@ namespace OsintSnowSharp
             _moduleOathNet = new ModuleOathNet(this);
             _moduleIntelX = new ModuleIntelX(this);
             _moduleXBOX = new ModuleXBOX(this);
+            _moduleKraken = new ModuleKraken(this);
         }
 
         public ModuleInf0Sec GetInf0Sec()
@@ -162,6 +164,11 @@ namespace OsintSnowSharp
         public ModuleXBOX GetXBOX()
         {
             return _moduleXBOX;
+        }
+
+        public ModuleKraken GetKraken()
+        {
+            return _moduleKraken;
         }
 
         public string PostRequest(string url, string json, bool osintApi = true)
