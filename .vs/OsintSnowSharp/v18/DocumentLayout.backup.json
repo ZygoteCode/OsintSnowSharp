@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\modules\\modulekeyscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:modules\\modulekeyscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\modules\\moduleleakosint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:modules\\moduleleakosint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\modules\\modulebreachvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:modules\\modulebreachvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\osintsnowcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:osintsnowcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\modules\\modulekraken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:modules\\modulekraken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|c:\\users\\nmjuk\\desktop\\computer\\github repositories\\osintsnowsharp\\modules\\moduleleakcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEB05D0-3472-4079-B4DD-25095C141D5A}|OsintSnowSharp.csproj|solutionrelative:modules\\moduleleakcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModuleKeyScore.cs",
+              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleKeyScore.cs",
+              "RelativeDocumentMoniker": "Modules\\ModuleKeyScore.cs",
+              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleKeyScore.cs",
+              "RelativeToolTip": "Modules\\ModuleKeyScore.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:52:12.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModuleLeakOSINT.cs",
+              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleLeakOSINT.cs",
+              "RelativeDocumentMoniker": "Modules\\ModuleLeakOSINT.cs",
+              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleLeakOSINT.cs",
+              "RelativeToolTip": "Modules\\ModuleLeakOSINT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:51:04.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModuleBreachVIP.cs",
+              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleBreachVIP.cs",
+              "RelativeDocumentMoniker": "Modules\\ModuleBreachVIP.cs",
+              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleBreachVIP.cs",
+              "RelativeToolTip": "Modules\\ModuleBreachVIP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:39:05.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModuleKraken.cs",
+              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleKraken.cs",
+              "RelativeDocumentMoniker": "Modules\\ModuleKraken.cs",
+              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleKraken.cs",
+              "RelativeToolTip": "Modules\\ModuleKraken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:52:39.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModuleLeakCheck.cs",
+              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleLeakCheck.cs",
+              "RelativeDocumentMoniker": "Modules\\ModuleLeakCheck.cs",
+              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\Modules\\ModuleLeakCheck.cs",
+              "RelativeToolTip": "Modules\\ModuleLeakCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T17:52:28.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OsintSnowCore.cs",
+              "DocumentMoniker": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\OsintSnowCore.cs",
+              "RelativeDocumentMoniker": "OsintSnowCore.cs",
+              "ToolTip": "C:\\Users\\nmjuk\\Desktop\\Computer\\GitHub Repositories\\OsintSnowSharp\\OsintSnowCore.cs",
+              "RelativeToolTip": "OsintSnowCore.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAIwKYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T07:16:32.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
 
         public string Search(string query)
         {
-            return _osintSnowCore.PostRequest("/keyscore/search", "{\"terms\":\"" + query + "\",\"types\":[\"email\",\"email_domain\",\"username\",\"login\",\"name\",\"phone\",\"hash\"],\"source\":\"leakosint\"}");
+            return _osintSnowCore.PostRequest("/keyscore/search", "{\"terms\":\"" + query + "\",\"types\":[\"email\",\"email_domain\",\"username\",\"login\",\"name\",\"phone\",\"hash\",\"ip\"],\"source\":\"leakosint\"}");
         }
     }
 }
